@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+  android:background="@android:color/white">
+
+  <!-- Affichage de la date de l'sinistre -->
+  <ImageView
+      android:id="@+id/imageSinistre"
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+  android:layout_marginTop="8dp"
+  android:scaleType="centerCrop"
+  android:contentDescription="@string/image_description_sinistre"
+      android:src="@drawable/img"/>  <!-- Set the placeholder image here -->
+
+  <TextView
+    android:id="@+id/tvdateSinistre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/date_sinistre_sinistre"
+  android:layout_marginBottom="8dp"/>
+
+  <!-- Affichage du lieu de l'sinistre -->
+  <TextView
+    android:id="@+id/tvNomSinistre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/nom_sinistre_sinistre"
+  android:layout_marginBottom="8dp"/>
+
+  <!-- Affichage du nom du conducteur -->
+  <!--<TextView
+    android:id="@+id/tvNomConducteur"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/nom_conducteur"
+  android:layout_marginBottom="8dp"/>-->
+
+  <!-- Affichage du prénom du conducteur -->
+ <!-- <TextView
+    android:id="@+id/tvPrenomConducteur"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/prenom_conducteur"
+  android:layout_marginBottom="8dp"/>-->
+
+  <!-- Affichage de la description de l'sinistre -->
+  <TextView
+    android:id="@+id/tvDescriptionSinistre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/description_sinistre_sinistre"
+  android:layout_marginBottom="8dp"/>
+
+  <Button
+      android:id="@+id/btnDeleteSinistre"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Delete Sinistre"
+      android:layout_marginTop="16dp" />
+
+  <Button
+      android:id="@+id/btnUpdateSinistre"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Update Sinistre" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">sinistre</string>
+  <string name="add_sinistre">sinistre</string>
+
+  <string name="back_button_desc">Retour</string>
+  <string name="add_button_desc">Ajouter</string>
+
+  <!-- Toolbar title and hints for EditText fields in AddSinistreFragment -->
+  <string name="add_sinistre_title">Ajouter un Sinistre</string>
+  <string name="hint_date_sinistre">Date de sinstre</string>
+  <string name="hint_location_sinistre">Nom</string>
+  <string name="hint_description_sinistre">Matricule</string>
+  <string name="back_sinistre">back</string>
+  <string name="sinistre_title_sinistre"> sinistre_title</string>
+  <string name="date_sinistre_sinistre">Date de lsinistre:</string>
+  <string name="nom_sinistre_sinistre">Lieu de lsinistre</string>
+  <string name="nom_conducteur_sinistre">Nom du conducteur:</string>
+  <string name="prenom_conducteur_sinistre">Prénom du conducteur:</string>
+  <string name="description_sinistre_sinistre">Description de lsinistre:</string>
+  <!-- Button text -->
+  <string name="save_sinistre_sinistre">Enregistrer le Sinistre</string>
+
+  <!-- Error message when a field is left empty -->
+  <string name="error_fill_all_fields_sinistre">Veuillez remplir tous les champs</string>
+
+  <!-- Success message when a sinistre is successfully saved -->
+  <string name="success_sinistre_added_sinistre">Sinistre ajouté avec succès</string>
+  <string name="upload_photo_sinistre">Upload Photo</string>
+  <string name="image_description_sinistre">Image related to the sinistre</string> <!-- Add this line -->
+
+
+</resources>
