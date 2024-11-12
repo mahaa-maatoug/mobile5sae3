@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <!-- Toolbar with a back button, title, and add button -->
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageButton
+      android:id="@+id/back_button"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/back_button_desc"
+      android:padding="8dp"
+      android:src="@drawable/baseline_arrow_back_24"
+      tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+      android:id="@+id/toolbar_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/toolbar_title"
+      android:textColor="@android:color/white"
+      android:textSize="20sp"
+      android:layout_gravity="center"/>
+
+    <ImageButton
+      android:id="@+id/add_button"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/add_button_desc"
+      android:padding="8dp"
+      android:src="@drawable/ic_add_circle"
+      tools:ignore="TouchTargetSizeCheck" />
+  </androidx.appcompat.widget.Toolbar>
+
+  <!-- Fragment container for dynamic content -->
+  <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp" />
+
+  <!-- Input fields for adding an offer -->
+  <EditText
+    android:id="@+id/etPrice"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_price"
+    android:inputType="numberDecimal"
+    android:importantForAutofill="yes" />
+
+  <EditText
+    android:id="@+id/etType"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_type"
+    android:inputType="text"
+    android:importantForAutofill="yes" />
+
+  <EditText
+    android:id="@+id/etDescription"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_description"
+    android:inputType="text"
+    android:importantForAutofill="yes" />
+
+  <EditText
+    android:id="@+id/etDate"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_date"
+    android:inputType="date"
+    android:importantForAutofill="yes" />
+
+  <!-- Button to save the offer with light blue color -->
+  <Button
+    android:id="@+id/btnSaveOffer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_save_offer"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="#87CEEB"
+    android:textColor="@android:color/white"
+    android:textSize="18sp" />
+  <Button
+    android:id="@+id/btnUploadPhoto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_save_offer"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="#87CEEB"
+    android:textColor="@android:color/white"
+    android:textSize="18sp" />
+
+
+  <!-- Bottom Navigation Bar, moved below the button -->
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="@color/white"
+    app:itemIconSize="24dp"
+    app:itemIconTint="#2196F3"
+    app:itemTextColor="@color/bottom_nav_item_color"
+    app:labelVisibilityMode="labeled"
+    app:menu="@menu/bottom_nav_menu" />
+</LinearLayout>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".HomeActivity">
+
+  <!-- Toolbar with back arrow, title, and add button -->
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <!-- Back button with adjusted size and padding -->
+    <ImageButton
+      android:id="@+id/back_button"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="Back"
+      android:padding="8dp"
+      android:src="@drawable/baseline_arrow_back_24"
+      tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Title in the center of the toolbar -->
+    <TextView
+      android:id="@+id/toolbar_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:text="Accueil"
+      android:textColor="@android:color/white"
+      android:textSize="20sp" />
+
+    <!-- Add button with adjusted size and padding -->
+    <ImageButton
+      android:id="@+id/add_button"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_alignParentEnd="true"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="Add"
+      android:padding="8dp"
+      android:src="@drawable/ic_add_circle"
+      tools:ignore="TouchTargetSizeCheck" />
+  </androidx.appcompat.widget.Toolbar>
+
+  <!-- Fragment container for loading fragments dynamically -->
+  <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar"
+    android:layout_above="@id/bottom_navigation" />
+
+  <!-- Bottom Navigation Bar -->
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:menu="@menu/bottom_nav_menu"
+    app:itemIconTint="#2196F3"
+    app:itemTextColor="@color/bottom_nav_item_color"
+    app:labelVisibilityMode="labeled"
+    app:itemIconSize="24dp"
+    android:background="@android:color/white" />
+
+</RelativeLayout>

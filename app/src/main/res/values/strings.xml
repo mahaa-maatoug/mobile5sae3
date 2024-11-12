@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">mahaassure</string>
+  <string name="description_image">Image représentant une offre</string>
+  <string name="view_description">Description</string>
+  <string name="toolbar_title">Accueil</string>
+  <string name="back_button_desc">Retour</string>
+  <string name="price">Price</string>
+  <string name="type">Type</string>
+  <string name="description">Description</string>
+  <string name="date">Date</string>
+  <string name="delete_offre">Delete Offer</string>
+  <string name="update_offre">Update Offer</string>
+  <string name="image_description">Offer Image</string>
+  <string name="hint_price">Prix</string>
+  <string name="hint_type">Type</string>
+  <string name="hint_description">Description</string>
+  <string name="hint_date">Date</string>
+  <string name="button_save_offer">Ajouter Offre</string>
+  <string name="add_button_desc">Add Offer</string>
+
+</resources>
