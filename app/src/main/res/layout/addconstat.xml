@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageButton
+      android:id="@+id/back_button"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/back_button_desc"
+      android:padding="8dp"
+      android:src="@drawable/baseline_arrow_back_24"
+      tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+      android:id="@+id/toolbar_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/add_constat_title"
+      android:textColor="@android:color/white"
+      android:textSize="20sp"
+      android:layout_gravity="center"/>
+  </androidx.appcompat.widget.Toolbar> <!-- Closing tag for Toolbar -->
+
+  <EditText
+    android:id="@+id/etDateAccident"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_date"
+    android:inputType="date" />
+
+  <EditText
+    android:id="@+id/etLieuAccident"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_location"
+    android:inputType="text" />
+
+  <EditText
+    android:id="@+id/etDescriptionAccident"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="@string/hint_description"
+    android:inputType="text" />
+  <Button
+      android:id="@+id/btnUploadPhoto"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/upload_photo"
+      android:backgroundTint="#FF5722"
+      android:textColor="@android:color/white"
+      android:textSize="18sp"
+      android:layout_marginTop="16dp" />
+
+
+  <Button
+    android:id="@+id/btnSaveConstat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/save_constat"
+    android:backgroundTint="#87CEEB"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    android:layout_marginTop="16dp" />
+</LinearLayout>

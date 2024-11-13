@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Image du contrat -->
+    <ImageView
+        android:id="@+id/contractImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:contentDescription="@string/description_image"
+        android:scaleType="centerCrop" />
+
+
+    <!-- Titre pour afficher le prix du contrat -->
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:text="Prix : 0€"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Titre pour afficher le type de contrat -->
+    <TextView
+        android:id="@+id/tvContractType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:text="Type de contrat : Exemple"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Titre pour afficher la date de début -->
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:text="Date de début : 01/01/2024"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Titre pour afficher la description du contrat -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:text="Description : Exemple de description du contrat"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Bouton pour modifier le contrat -->
+
+    <Button
+        android:id="@+id/btnDeleteConstat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Contrat"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnEditContract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:textSize="16sp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

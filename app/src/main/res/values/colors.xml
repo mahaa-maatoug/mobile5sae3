@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="black">#FF000000</color>
+  <color name="white">#FFFFFFFF</color>
+  <color name="colorGray">#FF9800</color>
+
+  <color name="orange">#FFA500</color>
+  <color name="deleteButtonColor">#FF9800</color> <!-- Couleur rouge pour le bouton supprimer -->
+  <color name="updateButtonColor">#69AAF0</color> <!-- Couleur bleue pour le bouton mise à jour -->
+
+</resources>

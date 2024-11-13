@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+  android:background="@android:color/white">
+  <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar_add"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageButton
+      android:id="@+id/back_button"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/back_button_desc"
+      android:padding="8dp"
+      android:src="@drawable/baseline_arrow_back_24"
+      tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+      android:id="@+id/toolbar_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/toolbar_title"
+      android:textColor="@android:color/white"
+      android:textSize="20sp" />
+
+    <ImageButton
+      android:id="@+id/add_button"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/add_button_desc"
+      android:padding="8dp"
+      android:src="@drawable/ic_add_circle"
+      tools:ignore="TouchTargetSizeCheck" />
+  </androidx.appcompat.widget.Toolbar>
+  <!-- Image representing the offre -->
+  <ImageView
+    android:id="@+id/imageOffre"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="8dp"
+    android:scaleType="centerCrop"
+    android:contentDescription="@string/image_description"
+    android:src="@drawable/img"/>  <!-- Set the placeholder image here -->
+
+  <!-- Displaying the price -->
+  <TextView
+    android:id="@+id/tvPrice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/price"
+    android:layout_marginBottom="8dp"/>
+
+  <!-- Displaying the type of the offer -->
+  <TextView
+    android:id="@+id/tvType"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/type"
+    android:layout_marginBottom="8dp"/>
+
+  <!-- Displaying the date -->
+  <TextView
+    android:id="@+id/tvDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/date"
+    android:layout_marginBottom="8dp"/>
+
+  <!-- Displaying the description -->
+  <TextView
+    android:id="@+id/tvDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/description"
+    android:layout_marginBottom="8dp"/>
+
+  <!-- Button for deleting the offer -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="16dp">
+
+    <!-- Button for deleting the offer with orange color -->
+    <Button
+      android:id="@+id/btnDeleteOffre"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:backgroundTint="#FF9800"
+    android:textColor="@android:color/white"
+    android:text="Delete Offer"
+    android:layout_marginEnd="8dp" />
+
+    <!-- Button for updating the offer with blue color -->
+    <Button
+      android:id="@+id/btnUpdateOffre"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:backgroundTint="#2196F3"
+    android:textColor="@android:color/white"
+    android:text="Update Offer"
+    android:layout_marginStart="8dp" />
+  </LinearLayout>
+
+</LinearLayout>

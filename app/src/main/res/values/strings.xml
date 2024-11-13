@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">constat</string>
+  <string name="add_constat">constat</string>
+
+  <string name="back_button_desc">Retour</string>
+  <string name="add_button_desc">Ajouter</string>
+
+  <!-- Toolbar title and hints for EditText fields in AddConstatFragment -->
+  <string name="add_constat_title">Ajouter un Constat</string>
+  <string name="hint_date">Date de l\'accident</string>
+  <string name="hint_location">Lieu de l\'accident</string>
+  <string name="hint_description">Description de l\'accident</string>
+  <string name="back">back</string>
+  <string name="constat_title"> constat_title</string>
+  <string name="date_accident">Date de laccident:</string>
+  <string name="lieu_accident">Lieu de laccident</string>
+  <string name="nom_conducteur">Nom du conducteur:</string>
+  <string name="prenom_conducteur">Prénom du conducteur:</string>
+  <string name="description_accident">Description de laccident:</string>
+  <!-- Button text -->
+  <string name="save_constat">Enregistrer le Constat</string>
+
+  <!-- Error message when a field is left empty -->
+  <string name="error_fill_all_fields">Veuillez remplir tous les champs</string>
+
+  <!-- Success message when a constat is successfully saved -->
+  <string name="success_constat_added">Constat ajouté avec succès</string>
+  <string name="upload_photo">Upload Photo</string>
+  <string name="image_description">Image related to the accident</string> <!-- Add this line -->
+
+  <!-- Toolbar title and hints for EditText fields in AddActualiteFragment -->
+  <string name="add_actualite_title">Ajouter un Actualite</string>
+  <string name="hint_date_actualite">Date de l\'actualite</string>
+  <string name="hint_location_actualite">Lieu de l\'actualite</string>
+  <string name="hint_description_actualite">Description de l\'actualite</string>
+  <string name="back_actualite">back</string>
+  <string name="actualite_title_actualite"> actualite_title</string>
+  <string name="date_actualite">Date de lactualite:</string>
+  <string name="lieu_actualite">Lieu de lactualite</string>
+  <string name="nom_conducteur_act">Nom du conducteur:</string>
+  <string name="prenom_conducteur_">Prénom du conducteur:</string>
+  <string name="description_actualite">Description de lactualite:</string>
+  <!-- Button text -->
+  <string name="save_actualite">Enregistrer le Actualite</string>
+
+  <!-- Error message when a field is left empty -->
+  <string name="error_fill_all_fields_actualite">Veuillez remplir tous les champs</string>
+
+  <!-- Success message when a actualite is successfully saved -->
+  <string name="success_actualite_added">Actualite ajouté avec succès</string>
+  <string name="upload_photo_actualite">Upload Photo</string>
+  <string name="image_description_actualite">Image related to the actualite</string> <!-- Add this line -->
+
+
+  <string name="description_image">Image représentant une offre</string>
+  <string name="view_description">Description</string>
+  <string name="toolbar_title">Accueil</string>
+
+  <string name="price">Price</string>
+  <string name="type">Type</string>
+  <string name="description">Description</string>
+  <string name="date">Date</string>
+  <string name="delete_offre">Delete Offer</string>
+  <string name="update_offre">Update Offer</string>
+
+  <string name="hint_price">Prix</string>
+  <string name="hint_type">Type</string>
+  <string name="hint_description_offre">Description</string>
+  <string name="hint_date_offre">Date</string>
+  <string name="button_save_offer">Ajouter Offre</string>
+  <string name="add_button_desc_offre">Add Offer</string>
+
+
+  <!-- Toolbar title and hints for EditText fields in AddSinistreFragment -->
+  <string name="add_sinistre_title">Ajouter un Sinistre</string>
+  <string name="hint_date_sinistre">Date de sinstre</string>
+  <string name="hint_location_sinistre">Nom</string>
+  <string name="hint_description_sinistre">Matricule</string>
+  <string name="sinistre_title"> sinistre_title</string>
+  <string name="date_sinistre">Date de lsinistre:</string>
+  <string name="nom_sinistre">Lieu de lsinistre</string>
+  <string name="description_sinistre">Description de lsinistre:</string>
+  <!-- Button text -->
+  <string name="save_sinistre">Enregistrer le Sinistre</string>
+
+  <!-- Error message when a field is left empty -->
+  <string name="error_fill_all_fields_sinistre">Veuillez remplir tous les champs</string>
+
+  <!-- Success message when a sinistre is successfully saved -->
+  <string name="success_sinistre_added">Sinistre ajouté avec succès</string>
+  <string name="upload_photo_sinistre">Upload Photo</string>
+  <string name="image_description_sinistre">Image related to the sinistre</string> <!-- Add this line -->
+
+
+  //contrat
+  <!-- Add button description -->
+  <string name="add_button_desc_contrat">Ajouter un Contrat</string>
+
+  <!-- Toolbar title -->
+  <string name="toolbar_title_contrat">Ajouter un Contrat</string>
+
+  <!-- Input field hints -->
+  <string name="hint_price_contrat">Entrer le prix</string>
+  <string name="hint_type_contrat">Entrer le type</string>
+  <string name="hint_description_contrat">Entrer la description</string>
+  <string name="hint_date_contrat">Entrer la date</string>
+
+  <!-- Button text -->
+  <string name="button_save_contrat">Enregistrer le Contrat</string>
+  <string name="hint_start_date">Date de début</string>
+  <string name="button_save_offer_contrat">Enregistrer le contrat</string>
+  <string name="contract_added_successfully">Contrat ajouté avec succès</string>
+  <string name="please_fill_all_fields">Veuillez remplir tous les champs</string>
+
+  <!-- View contract and description buttons -->
+  <string name="btn_contrat">Voir le Contrat</string>
+  <string name="btn_description">Voir la Description</string>
+
+  <!-- Update Contract Strings -->
+  <string name="toolbar_update_title">Mettre à jour le Contrat</string>
+  <string name="button_update_contrat">Mettre à jour le Contrat</string>
+  <string name="contract_updated_successfully">Contrat mis à jour avec succès</string>
+  <string name="contract_update_failed">Échec de la mise à jour du contrat</string>
+
+  <!-- Delete Contract Strings -->
+  <string name="toolbar_delete_title">Supprimer le Contrat</string>
+  <string name="button_delete_contrat">Supprimer le Contrat</string>
+  <string name="contract_deleted_successfully">Contrat supprimé avec succès</string>
+  <string name="contract_delete_failed">Échec de la suppression du contrat</string>
+  <string name="confirm_delete_contract">Êtes-vous sûr de vouloir supprimer ce contrat ?</string>
+
+  <!-- Price formatted string -->
+  <string name="price_label">Prix : %1$.2f €</string>
+
+  <!-- Contract Type formatted string -->
+  <string name="contract_type_label">Type de contrat : %1$s</string>
+
+  <!-- Start Date formatted string -->
+  <string name="start_date_label">Date de début : %1$s</string>
+
+  <!-- Description formatted string -->
+  <string name="description_label">Description : %1$s</string>
+
+</resources>
