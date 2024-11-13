@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">actualite</string>
+  <string name="add_actualite">actualite</string>
+
+  <string name="back_button_desc">Retour</string>
+  <string name="add_button_desc">Ajouter</string>
+
+  <!-- Toolbar title and hints for EditText fields in AddActualiteFragment -->
+  <string name="add_actualite_title">Ajouter un Actualite</string>
+  <string name="hint_date">Date de l\'actualite</string>
+  <string name="hint_location">Lieu de l\'actualite</string>
+  <string name="hint_description">Description de l\'actualite</string>
+  <string name="back">back</string>
+  <string name="actualite_title"> actualite_title</string>
+  <string name="date_actualite">Date de lactualite:</string>
+  <string name="lieu_actualite">Lieu de lactualite</string>
+  <string name="nom_conducteur">Nom du conducteur:</string>
+  <string name="prenom_conducteur">Prénom du conducteur:</string>
+  <string name="description_actualite">Description de lactualite:</string>
+  <!-- Button text -->
+  <string name="save_actualite">Enregistrer le Actualite</string>
+
+  <!-- Error message when a field is left empty -->
+  <string name="error_fill_all_fields">Veuillez remplir tous les champs</string>
+
+  <!-- Success message when a actualite is successfully saved -->
+  <string name="success_actualite_added">Actualite ajouté avec succès</string>
+  <string name="upload_photo">Upload Photo</string>
+  <string name="image_description">Image related to the actualite</string> <!-- Add this line -->
+
+
+</resources>
